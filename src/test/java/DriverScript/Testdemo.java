@@ -1,4 +1,4 @@
-package contactDetails;
+package DriverScript;
 
 import org.testng.annotations.Test;
 

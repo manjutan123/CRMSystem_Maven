@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27974" started-at="2018-08-24T13:06:01Z" finished-at="2018-08-24T13:06:28Z">
+  <suite name="Suite" duration-ms="57535" started-at="2018-08-27T09:20:25Z" finished-at="2018-08-27T09:21:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27974" started-at="2018-08-24T13:06:01Z" finished-at="2018-08-24T13:06:28Z">
-      <class name="contactDetails.Logintest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:contactDetails.Logintest@ed9d034]" name="beforeMethod" is-config="true" duration-ms="3406" started-at="2018-08-24T13:06:01Z" finished-at="2018-08-24T13:06:04Z">
+    <test name="Test" duration-ms="57535" started-at="2018-08-27T09:20:25Z" finished-at="2018-08-27T09:21:22Z">
+      <class name="DriverScript.Testdemo">
+        <test-method status="PASS" signature="start()[pri:0, instance:DriverScript.Testdemo@462d5aee]" name="start" duration-ms="1" started-at="2018-08-27T09:21:22Z" finished-at="2018-08-27T09:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="process()[pri:0, instance:DriverScript.Testdemo@462d5aee]" name="process" duration-ms="1" started-at="2018-08-27T09:21:22Z" depends-on-methods="DriverScript.Testdemo.start" finished-at="2018-08-27T09:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:DriverScript.Testdemo@462d5aee]" name="stop" duration-ms="1" started-at="2018-08-27T09:21:22Z" depends-on-methods="DriverScript.Testdemo.process" finished-at="2018-08-27T09:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- DriverScript.Testdemo -->
+      <class name="DriverScript.Logintest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DriverScript.Logintest@6a1aab78]" name="beforeMethod" is-config="true" duration-ms="4164" started-at="2018-08-27T09:20:25Z" finished-at="2018-08-27T09:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login1()[pri:0, instance:contactDetails.Logintest@ed9d034]" name="login1" duration-ms="24549" started-at="2018-08-24T13:06:04Z" finished-at="2018-08-24T13:06:28Z">
+        <test-method status="PASS" signature="login1()[pri:0, instance:DriverScript.Logintest@6a1aab78]" name="login1" duration-ms="53326" started-at="2018-08-27T09:20:29Z" finished-at="2018-08-27T09:21:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:contactDetails.Logintest@ed9d034]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-24T13:06:28Z" finished-at="2018-08-24T13:06:28Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DriverScript.Logintest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-27T09:21:22Z" finished-at="2018-08-27T09:21:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- contactDetails.Logintest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- DriverScript.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
